@@ -1,0 +1,33 @@
+{
+    "name": "01._webrtc_browser_sdp",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "start": "node server.js"
+    },
+    "devDependencies": {
+        "vite": "^6.2.0"
+    },
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "esbuild": "^0.25.4",
+        "express": "^5.1.0",
+        "fdir": "^6.4.4",
+        "nanoid": "^3.3.11",
+        "picocolors": "^1.1.1",
+        "picomatch": "^4.0.2",
+        "postcss": "^8.5.3",
+        "rollup": "^4.40.2",
+        "socket.io": "^4.8.1",
+        "source-map-js": "^1.2.1",
+        "tinyglobby": "^0.2.13"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
