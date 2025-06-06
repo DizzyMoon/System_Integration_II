@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mikkel/repos/System-Integration-1st-semester/12._Assignments/Webhook_demo/Webhook_demo.csproj": {}
+    "/home/irozage/repos/System_Integration_2/12/Webhook_demo/Webhook_demo.csproj": {}
   },
   "projects": {
-    "/home/mikkel/repos/System-Integration-1st-semester/12._Assignments/Webhook_demo/Webhook_demo.csproj": {
+    "/home/irozage/repos/System_Integration_2/12/Webhook_demo/Webhook_demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mikkel/repos/System-Integration-1st-semester/12._Assignments/Webhook_demo/Webhook_demo.csproj",
+        "projectUniqueName": "/home/irozage/repos/System_Integration_2/12/Webhook_demo/Webhook_demo.csproj",
         "projectName": "Webhook_demo",
-        "projectPath": "/home/mikkel/repos/System-Integration-1st-semester/12._Assignments/Webhook_demo/Webhook_demo.csproj",
-        "packagesPath": "/home/mikkel/.nuget/packages/",
-        "outputPath": "/home/mikkel/repos/System-Integration-1st-semester/12._Assignments/Webhook_demo/obj/",
+        "projectPath": "/home/irozage/repos/System_Integration_2/12/Webhook_demo/Webhook_demo.csproj",
+        "packagesPath": "/home/irozage/.nuget/packages/",
+        "outputPath": "/home/irozage/repos/System_Integration_2/12/Webhook_demo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mikkel/.nuget/NuGet/NuGet.Config"
+          "/home/irozage/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -64,6 +64,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.4, 9.0.4]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
